@@ -1,0 +1,89 @@
+.container {
+    width: 87%;
+    margin: 0 auto;
+}
+#header {
+    padding:  20px 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-menu {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-menus {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-menu a {
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.header-buttons button {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #7CBA72;
+    background: transparent;
+    border: 1px solid #7CBA72;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 135px;
+    margin: 0 5px;
+}
+.header-buttons button:hover {
+    background: #7CBA72;
+    color: #070707;
+}
+.section {
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.section-texts h1 {
+    font-size: 21px;
+    line-height: 29px;
+}
+.section p {
+    font-size: 12px;
+    line-height: 16px;
+}
+.section-lesson {
+    font-size: 29px;
+    line-height: 39px;
+}
+.section-texts {
+    margin-bottom: 50px;
+}
+#footer {
+    background: #404149;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #FFFFFF;
+    padding: 25px 0;
+}
